@@ -15,5 +15,12 @@ url: https://basil.is-a.dev/
 ##### Main site (NOTE: Doesn't support mobile *yet*):
 [/basil.is-a.dev/](https://basil.is-a.dev/)
 
+##### SkidKit repo:
+[/github/SkidKit](https://github.com/SkidKit)
+
+##### Basilicous github:
+[/github/LowSpecCorgi](https://github.com/LowSpecCorgi)
+
+
 ##### Project list:
 - [Interface Component](InterfaceComponent/interface_component.md)
