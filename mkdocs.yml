@@ -1,8 +1,8 @@
 site_name: SkidKit
-site_url: https://basil.is-a.dev/
+site_url: https://basil.is-a.dev/SkidKit
 
 nav:
-  - Home: skid_kit.md
+  - Home: index.md
   - "Interface Component": 
     - "About": InterfaceComponent/interface_component.md
     - "Layouts": InterfaceComponent/layouts.md

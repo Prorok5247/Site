@@ -1,3 +1,11 @@
+---
+title: SkidKit site
+summary: Documentation and articles pertaining to SkidKit
+authors:
+    - Basilicous
+url: https://basil.is-a.dev/
+---
+
 # Stylesheets
 
 * * *
