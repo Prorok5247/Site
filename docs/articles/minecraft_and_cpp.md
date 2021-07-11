@@ -32,6 +32,11 @@ BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 }
 ```
 
+## Injecting the poison in the coffee
+I needed a tool with the purpose of injecting DLL's into programs.
+
+So, I had a look through the internet, and found [Process Hacker](https://processhacker.sourceforge.io/), this is a pretty nifty program, that allows you to view many different things like what programs are eating away at a file you want to delete, and, as a nice bonus, it also sets of the least Windows Defender flags
+
 ## Interfacing with coffee
 To actually interface with Java, I had to use a library by the name of `JNI`
 
