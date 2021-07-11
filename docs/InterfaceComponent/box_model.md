@@ -24,7 +24,7 @@ The box model has:
 The box model is used for sizing and positioning elements
 
 <figure>
-  <img src="/res/BoxModel.png" />
+  <img src="../../res/BoxModel.png" />
   <figcaption>Image credit: <a href="https://www.w3schools.com/Css/css_boxmodel.asp">W3Schools</a></figcaption>
 </figure>
 

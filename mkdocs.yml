@@ -1,5 +1,8 @@
 site_name: SkidKit
 site_url: https://basil.is-a.dev/SkidKit
+site_description: Documentation and articles pertaining to SkidKit
+site_author: Basilicous
+copyright: © 2021 Basilicous.  All rights reserved.
 
 nav:
   - Home: index.md
@@ -9,6 +12,8 @@ nav:
     - "Box Model": InterfaceComponent/box_model.md
     - "Stylesheets": InterfaceComponent/stylesheets.md
     - "Surfaces & Elements": InterfaceComponent/surfaces_and_elements.md
+  - "Articles":
+    - "Minecraft and C++": "articles/minecraft_and_cpp.md"
 
 theme:
   name: material
