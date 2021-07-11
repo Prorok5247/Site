@@ -1,0 +1,30 @@
+site_name: SkidKit
+site_url: https://example.com/
+
+nav:
+  - Home: skid_kit.md
+  - "Interface Component": 
+    - "About": InterfaceComponent/interface_component.md
+    - "Layouts": InterfaceComponent/layouts.md
+    - "Box Model": InterfaceComponent/box_model.md
+    - "Stylesheets": InterfaceComponent/stylesheets.md
+    - "Surfaces & Elements": InterfaceComponent/surfaces_and_elements.md
+
+theme:
+  name: material
+  nav_style: dark
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
