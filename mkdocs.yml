@@ -6,6 +6,9 @@ copyright: © 2021 Basilicous.  All rights reserved.
 
 nav:
   - Home: index.md
+  - "How to make a mixin client":
+    - "1 | Introduction": "MixinClientTutorial/introduction.md"
+    - "2 | Setting up": "MixinClientTutorial/setting_up.md"
   - "Interface Component": 
     - "About": InterfaceComponent/interface_component.md
     - "Layouts": InterfaceComponent/layouts.md
@@ -14,6 +17,7 @@ nav:
     - "Surfaces & Elements": InterfaceComponent/surfaces_and_elements.md
   - "Articles":
     - "Minecraft and C++": "articles/minecraft_and_cpp.md"
+    - "Sumo takes skill": "articles/sumo_takes_skill.md"
 
 theme:
   name: material
@@ -26,6 +30,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.superfences
+  - pymdownx.keys
   - pymdownx.arithmatex:
       generic: true
 

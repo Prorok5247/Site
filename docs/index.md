@@ -24,3 +24,6 @@ url: https://basil.is-a.dev/
 
 ##### Project list:
 - [Interface Component](InterfaceComponent/interface_component.md)
+- [Mixin Client tutorial](MixinClientTutorial/setting_up.md)
+
+`[[UNFINISHED]]` Marks unfinished articles, do not ask help for them, don't follow them either
