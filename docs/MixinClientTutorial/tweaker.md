@@ -153,6 +153,7 @@ public String[] getLaunchArguments()
 ```
 * * *
 ## 🥳 You should now be able to run the client
+[View the Tweaker code here](https://gist.github.com/LowSpecCorgi/4e7d2ff1ee7d00324770df8f3bd3a4d5)
 * * *
 
 ### How can I get help, ask questions, etcetera?
