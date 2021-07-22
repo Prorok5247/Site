@@ -65,6 +65,7 @@ final String GAME_DIR = "--gameDir";
 ```
 
 Now we need to
+
 1. Check if the launch args contains each constant, if not add it
 2. Check if the profile isn't `null` (profile contains metadata about the game, for example, the version)
 
