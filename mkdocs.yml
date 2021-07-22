@@ -9,6 +9,7 @@ nav:
   - "How to make a mixin client":
     - "1 | Introduction": "MixinClientTutorial/introduction.md"
     - "2 | Setting up": "MixinClientTutorial/setting_up.md"
+    - "3 | Making a tweaker": "MixinClientTutorial/tweaker.md"
   - "Interface Component": 
     - "About": InterfaceComponent/interface_component.md
     - "Layouts": InterfaceComponent/layouts.md
