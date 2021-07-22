@@ -45,8 +45,7 @@ Now we need to handle the launch arguments, or options, so you can simply just o
     * @param profile The game profile
     */
 @Override
-public final void acceptOptions(List<String> args, File gameDir, File assetsDir, String profile)
-{
+public final void acceptOptions(List<String> args, File gameDir, File assetsDir, String profile) {
     ...
 }
 ```
@@ -72,22 +71,19 @@ Now we need to
 We can do this by checking with a few `if` statements like so
 ```java linenums="1"
 // Check if version is passed as a launch argument, if not add it
-if (!args.contains(VERSION) && profile != null)
-{
+if (!args.contains(VERSION) && profile != null) {
     launchArgs.add(VERSION);
     launchArgs.add(profile);
 }
 
 // Check if assetDir is passed as a launch argument, if not add it
-if (!args.contains(ASSET_DIR) && profile != null)
-{
+if (!args.contains(ASSET_DIR) && profile != null) {
     launchArgs.add(ASSET_DIR);
     launchArgs.add(profile);
 }
 
 // Check if gameDir is passed as a launch argument, if not add it
-if (!args.contains(GAME_DIR) && profile != null)
-{
+if (!args.contains(GAME_DIR) && profile != null) {
     launchArgs.add(GAME_DIR);
     launchArgs.add(profile);
 }
@@ -100,8 +96,7 @@ You also need to define a function for injection into the class loader
     * @param classLoader The class loader
     */
 @Override
-public final void injectIntoClassLoader(LaunchClassLoader classLoader)
-{
+public final void injectIntoClassLoader(LaunchClassLoader classLoader) {
     ...
 }
 ```
@@ -125,8 +120,7 @@ environment.addConfiguration("mixins.PROJECT_NAME.json");
 Now we just need to check if there is no current obfuscation set, then set the obfuscation context to the `notch` obfuscation
 ```java linenums="1"
 // Check if the obfuscation context is null
-if (environment.getObfuscationContext() == null)
-{
+if (environment.getObfuscationContext() == null) {
     environment.setObfuscationContext("notch");
 }
 ```
@@ -140,14 +134,12 @@ environment.setSide(MixinEnvironment.Side.CLIENT);
 Lastly, we just add the boiler plate which allows Minecraft to retrieve the launch arguments and the launch target
 ```java linenums="1"
 @Override
-public String getLaunchTarget()
-{
+public String getLaunchTarget() {
     return MixinBootstrap.getPlatform().getLaunchTarget();
 }
 
 @Override
-public String[] getLaunchArguments()
-{
+public String[] getLaunchArguments() {
     return launchArgs.toArray(new String[0]);
 }
 ```
