@@ -11,6 +11,7 @@ nav:
     - "2 | Setting up": "MixinClientTutorial/setting_up.md"
     - "3 | Making a tweaker": "MixinClientTutorial/tweaker.md"
     - "4 | Our first mixin": "MixinClientTutorial/first_mixin.md"
+    - "5 | Modifying arguments": "MixinClientTutorial/modify_arg.md"
   - "Interface Component": 
     - "About": InterfaceComponent/interface_component.md
     - "Layouts": InterfaceComponent/layouts.md
