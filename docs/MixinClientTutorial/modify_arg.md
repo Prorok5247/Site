@@ -137,11 +137,10 @@ Okay, so I know how to modify one argument, what about multiple?
 Well using the former example where `println` has 2 arguments, a message and a number of times to print that message, we can modify multiple arguments like so
 
 ```java linenums="1"
-@ModifyArg(method = "aMethod", at = @At(
+@ModifyArgs(method = "aMethod", at = @At(
             value = "INVOKE",
             target = "Ljava/io/PrintStream;println(Ljava/lang/String;I)V",
-            ordinal = 4),
-           index = 0)
+            ordinal = 4))
 private void modifyOutput(Args args) {
     String x = args.get(0);
     int nTimesToRepeat = args.get(1);
