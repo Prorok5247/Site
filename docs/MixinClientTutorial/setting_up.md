@@ -31,7 +31,7 @@ Now you must do the following things
 5. Go to line 91 and change the word `PROJECT_NAME` to your project'sname
 7. Lastly, go to line 92 and change the word `GROUP_NAME` to your decided group name, and change `TWEAKER_NAME` to your project's name + the word `Tweaker`
 
-[View the an example of a customised `build.gradle` here](https://gist.github.com/LowSpecCorgi/68dbaa069c95494c4687905e75f3e882)
+[View the an example of a customized `build.gradle` here](https://gist.github.com/LowSpecCorgi/68dbaa069c95494c4687905e75f3e882)
 
 * * *
 ## Little gradle fix

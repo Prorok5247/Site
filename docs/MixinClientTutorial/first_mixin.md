@@ -16,7 +16,7 @@ project
                     -> client <-- Create this
 ```
 
-Since we don't want to polute Minecraft's namespace, we append the word `Mixin` to our mixin classes to avoid it clashing with Minecraft class names, which means, inside the client folder we just created, create a class by the name of `MinecraftMixin`, which will act as a mixin for the `Minecraft` class
+Since we don't want to pollute Minecraft's namespace, we append the word `Mixin` to our mixin classes to avoid it clashing with Minecraft class names, which means, inside the client folder we just created, create a class by the name of `MinecraftMixin`, which will act as a mixin for the `Minecraft` class
 * * *
 ## Making the mixin
 We need to tell the Mixin library what class `MinecraftMixin` is going to act as a mixin for (a class that will add in it's own code to another class).
@@ -35,7 +35,7 @@ Now that we have told `Mixin` that we are going to modify the `Minecraft` class'
 You can use the `@Overwrite` annotation, this will completely overwrite the code in a function, which is a **destructive change**, but it can be done like so:
 ```java linenums="1"
 @Overwrite
-private void functioNameToOverwrite(int p1, String p2) {
+private void functionNameToOverwrite(int p1, String p2) {
     ...
 }
 ```
@@ -67,7 +67,7 @@ Now that you know the basics of mixins, we can now attempt to write our mixin
     The `Minecraft` class has a method that runs when the game starts, aptly named `startGame`, which is what we want to inject into
 
 2. Where to inject
-    Injecting at the `HEAD` of this function will allow our code to run before Minecraft has been initalised, and `RETURN` will allow our code to run after Minecraft has been initalised, we will go for `RETURN` for now, but you can easily switch it
+    Injecting at the `HEAD` of this function will allow our code to run before Minecraft has been initialized, and `RETURN` will allow our code to run after Minecraft has been initialized, we will go for `RETURN` for now, but you can easily switch it
 
 We can now use the `@Inject` annotation to inject into the function `startGame`, at the location just before the function ends
 
