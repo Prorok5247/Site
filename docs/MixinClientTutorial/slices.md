@@ -10,8 +10,7 @@ private void aMethod(RandomClass test) {
     System.out.println("HElooo 25!");
     System.out.println("idk 356!");
     System.out.println("interesting 46!");
-    if (test.getWhetherToRunThisLol())
-    {
+    if (test.getWhetherToRunThisLol()) {
         System.out.println("Hi! 5!");
         System.out.println("Hello 1!");
         System.out.println("no? 456!");
@@ -66,8 +65,7 @@ private void aMethodInjector(RandomClass test) {
 So, with this scope, mixin will only look at this code
 
 ```java linenums="1"
-if (test.getWhetherToRunThisLol())
-{
+if (test.getWhetherToRunThisLol()) {
     System.out.println("Hi! 5!");
     System.out.println("Hello 1!");
     System.out.println("no? 456!");
